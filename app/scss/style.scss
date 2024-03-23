@@ -1,0 +1,34 @@
+@import 'vars';
+@import 'fonts';
+
+@import 'reset';
+@import 'global';
+
+.header {
+    padding: 50px 0;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+.menu {
+    &__list {
+        display: flex;
+    }
+
+    &__list-item + .menu__list-item {
+        padding-left: 45px;
+    }
+
+    &__list-link {
+        color: $title;
+        @extend %rubik-400;
+        &:hover {
+            color: $accent;
+
+    }
+}
+}
+
+
+@import 'media';
