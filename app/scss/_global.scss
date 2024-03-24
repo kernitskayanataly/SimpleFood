@@ -1,7 +1,13 @@
+html,
+body {
+    height: 100vh;
+  }
+
 body {
   color: $default;
   font-size: 16px;
   line-height: 26px;
+  background-color: #F9FAFF;
   @extend %rubik-400;
 }
 
@@ -9,4 +15,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.main {
+  display: flex;
+  flex: 1;
 }
