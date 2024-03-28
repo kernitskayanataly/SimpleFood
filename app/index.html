@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SipleFood Homepage</title>
+    <title>SimpleFood Homepage</title>
     <link rel="stylesheet" href="css/style.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 <body>
     <header class="header">
@@ -49,10 +53,31 @@
     </header>
 
     <main class="main">
-        @include('components/_slider-top.html')
+        <section class="header-section">
+            <div class="container header-section__container">
+                <div class="header-section__items">
+                <div class="header-section__item">
+                    <h1 class="header-section__title">ДОСТАВКА 
+                    
+                    </h1>
+                    <h2 class="header-section__title header-section__subtitle">
+                        За 15 МИНУТ
+                    </h2>
+                    <p class="header-section__text">Самый быстрый сервис доставки еды в вашем городе. Не уложимся в срок - доставка за наш счёт
 
+                    </p>
+                    <a class="header-section__btn"> Заказать </a>
+                    <a class="header-section__link" href="#">Поробнее</a>
+                </div>
 
+                    <img class="header-section__img" src="images/photo.png" alt="Scooter guy">
+                </div>
+            </div>
+            
+        </section>
     </main>
+
+
 
     <footer class="footer">
         <div class="container">
@@ -144,14 +169,44 @@
                             <a class="footer-items__email" href="mailto:support@sfood.com">support@sfood.com</a>
                         </li>
                     </ul>
+                    <ul class="social">
+                        <li class="social__item" title="перейти в Facebook">
+                            <a class="social__link" href="">
+                            
+                                <svg class="social__img">
+                                    <use xlink:href="images/sprite.svg#icon-facebook"></use>
+                                </svg>
+                                                        
+                                </a>
+                        </li>
+                        <li class="social__item" title="перейти в Twitter">
+                            <a class="social__link" href="#">
+                                <svg class="social__img">
+                                    <use xlink:href="images/sprite.svg#icon-twitter"></use>
+                                </svg>
+                                </a>
+                        </li>
+                        <li class="social__item" title="перейти в Instagram">
+                            <a class="social__link" href="#">
+                                <svg class="social__img">
+                                    <use xlink:href="images/sprite.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             
         </div>
+        <hr class="footer-bottom__line">
+        <div class="footer-bottom">
+            
+            <span class="footer-bottom__text">© 2022 Simple Food</span>
+        </div>
         
     </footer>
     
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 </html>
