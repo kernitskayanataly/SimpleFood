@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SimpleFood Homepage</title>
     <link rel="stylesheet" href="css/style.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 <body>
     <header class="header">
@@ -47,8 +51,399 @@
             </div>
         </div>
     </header>
+
+    <main class="main">
+        <section class="header-section">
+            <div class="container header-section__container">
+                <div class="header-section__items">
+                <div class="header-section__item">
+                    <h1 class="header-section__title">ДОСТАВКА 
+                    
+                    </h1>
+                    <h2 class="header-section__title header-section__subtitle">
+                        За 15 МИНУТ
+                    </h2>
+                    <p class="header-section__text">Самый быстрый сервис доставки еды в вашем городе. Не уложимся в срок - доставка за наш счёт
+
+                    </p>
+                    <a class="header-section__btn"> Заказать </a>
+                    <a class="header-section__link" href="#">Поробнее</a>
+                </div>
+
+                    <img class="header-section__img" src="images/photo.png" alt="Scooter guy">
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="section delivery">
+            <div class="container">
+                <div class="delivery-info">
+                    <div class="delivery-info__image">
+                        <img src="images/fooddelivery.png" alt="#">
+                    </div>
+                    <div class="delivery-info__items">
+                        <h4 class="title">Оставайтесь дома,
+                            а мы позаботимся о еде
+                        </h4>
+                        <p class="delivery-info__text">У нас есть вкусная еда и мы готовы доставить её к вам домой! Воспользуйтесь нашей доставкой прямо сейчас и получите скиидку!
+                        </p>
+                          <ul class="delivery-info__list">
+                            <li class="delivery-info__item">
+                                <svg class="delivery-info__img">
+                                <use xlink:href="images/sprite.svg#icon-stopwatch"></use>
+                            </svg>
+                            Быстрая доставка за 15 минут
+                        </li>
+                            <li class="delivery-info__item">
+                                <svg class="delivery-info__img">
+                                <use xlink:href="images/sprite.svg#icon-delivery"></use>
+                            </svg>
+                            Вежливые курьеры
+                            </li>
+                            <li class="delivery-info__item">
+                                <svg class="delivery-info__img">
+                                    <use xlink:href="images/sprite.svg#icon-shop"></use>
+                                </svg>
+                                Более 500 заведений
+                            </li>
+                            <li class="delivery-info__item">
+                                <a class="delivery-info__btn" href="#">Подробнее</a>
+                            </li>
+                        </ul> 
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section restorants">
+            <div class="container">
+                <div class="restorants-list">
+                    <h4 class="restorants-list__title title">Лучшие рестораны</h4>
+                    <div class="restorants-list__items">
+                        <div class="restorants-list__item">
+                            <img class="restorants-list__image" src="images/content/blaze_pizza.png" alt="#">
+                            <h5 class="restorants-list__subtitle">Blaze Pizza</h5>
+                            <div class="restorants-list__time">
+                                <svg class="restorants-list__icn">
+                                    <use xlink:href="images/sprite.svg#icon-timer"></use>
+                                </svg>
+                                <p class="restorants-list__text">
+                                    <time>11:00</time> - <time>22:00</time>
+                                </p>
+                               <a class="restorants-list__btn" href="#">
+                                <svg class="restorants-list__arrow">
+                                    <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                                </svg>
+                               </a> 
+                            </div>
+                        </div>
+                        <div class="restorants-list__item">
+                            <img class="restorants-list__image" src="images/content/pizza_runcho.png" alt="#">
+                            <h5 class="restorants-list__subtitle">Pizza Runcho</h5>
+                            <div class="restorants-list__time"><svg class="restorants-list__icn">
+                                <use xlink:href="images/sprite.svg#icon-timer"></use>
+                            </svg>
+                            <p class="restorants-list__text"><time>12:00</time> - <time>21:00</time>
+                            </p>
+                           <a class="restorants-list__btn" href="#">
+                            <svg class="restorants-list__arrow">
+                                <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                            </svg>
+                           </a>
+                        </div>
+                        </div>
+                        <div class="restorants-list__item">
+                            <img src="images/content/pizza-hut.png" alt="#">
+                            <h5 class="restorants-list__subtitle">Blaze Pizza</h5>
+                            <div class="restorants-list__time">
+                                <svg class="restorants-list__icn">
+                                    <use xlink:href="images/sprite.svg#icon-timer"></use>
+                                </svg>
+                                <p class="restorants-list__text"><time>11:00</time> - <time>22:00</time>
+                                </p>
+                               <a class="restorants-list__btn" href="#">
+                                <svg class="restorants-list__arrow">
+                                    <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                                </svg>
+                               </a>
+                            </div>
+                            
+                        </div>
+                        <div class="restorants-list__item">
+                            <img src="images/content/macdonalds.png" alt="#">
+                            <h5 class="restorants-list__subtitle">McDonald`s</h5>
+                            <div class="restorants-list__time">
+                                <svg class="restorants-list__icn">
+                                    <use xlink:href="images/sprite.svg#icon-timer"></use>
+                                </svg>
+                                <p class="restorants-list__text"><time>06:00</time> - <time>23:00</time></p>
+                               <a class="restorants-list__btn" href="#">
+                                <svg class="restorants-list__arrow">
+                                    <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                                </svg>
+                               </a>
+                            </div>
+                            
+                        </div>
+                        <div class="restorants-list__item">
+                            <img src="images/content/kfc.png" alt="#">
+                            <h5 class="restorants-list__subtitle">KFC</h5>
+                            <div class="restorants-list__time">
+                                <svg class="restorants-list__icn">
+                                    <use xlink:href="images/sprite.svg#icon-timer"></use>
+                                </svg>
+                                <p class="restorants-list__text"><time>06:00</time> - <time>23:30</time>
+                                </p>
+                               <a class="restorants-list__btn" href="#">
+                                <svg class="restorants-list__arrow">
+                                    <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                                </svg>
+                               </a>
+                            </div>
+                            
+                        </div>
+                        <div class="restorants-list__item">
+                            <img src="images/content/star_burgers.png" alt="#">
+                            <h5 class="restorants-list__subtitle">Star Burgers</h5>
+                            <div class="restorants-list__time">
+                                <svg class="restorants-list__icn">
+                                    <use xlink:href="images/sprite.svg#icon-timer"></use>
+                                </svg>
+                                <p class="restorants-list__text"><time>09:00</time> - <time>21:00</time>
+                                </p>
+                               <a class="restorants-list__btn" href="#">
+                                <svg class="restorants-list__arrow">
+                                    <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                                </svg>
+                               </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reviews-slider">
+            <div class="container reviews-slider__container">
+                <h4 class="title reviews-slider__title">Отзывы клиентов
+                </h4>
+                <div class="reviews-slider__inner">
+                    
+                    <div class="reviews-slider__items">
+                        <div class="reviews-slider__item">
+                        
+                            <img class="reviews-slider__img" src="images/content/reviews__img.png" alt="#">
+
+                        
+                            <div class="reviews-slider__list">
+                                    <p class="reviews-slider__text">
+                                        SimpleFood - одна из лучших служб доставки продуктов из ресторанов в городе. Очень удобный сайт и приложение. Их доставщики очень вежливы и пунктуальны. Компания часто проводит акции и дарит скидки на доставку - однозначно рекомендую!
+                                    </p>
+                                    <figcaption class="reviews-slider__author">
+                                        Дарья
+                                      </figcaption>
+                                      <blockquote class="reviews-slider__blockquote">Ценитель вкусной еды</blockquote>
+                                </div>
+                        
+                            </div>
+                            <div class="reviews-slider__item">
+                        
+                                <img class="reviews-slider__img" src="images/content/reviews__img.png" alt="#">
     
+                            
+                                <div class="reviews-slider__list">
+                                        <p class="reviews-slider__text">
+                                            SimpleFood - одна из лучших служб доставки продуктов из ресторанов в городе. Очень удобный сайт и приложение. Их доставщики очень вежливы и пунктуальны. Компания часто проводит акции и дарит скидки на доставку - однозначно рекомендую!
+                                        </p>
+                                        <figcaption class="reviews-slider__author">
+                                            Дарья
+                                          </figcaption>
+                                          <blockquote class="reviews-slider__blockquote">Ценитель вкусной еды</blockquote>
+                                    </div>
+                            
+                                </div>
+                                <div class="reviews-slider__item">
+                        
+                                    <img class="reviews-slider__img" src="images/content/reviews__img.png" alt="#">
+        
+                                
+                                    <div class="reviews-slider__list">
+                                            <p class="reviews-slider__text">
+                                                SimpleFood - одна из лучших служб доставки продуктов из ресторанов в городе. Очень удобный сайт и приложение. Их доставщики очень вежливы и пунктуальны. Компания часто проводит акции и дарит скидки на доставку - однозначно рекомендую!
+                                            </p>
+                                            <figcaption class="reviews-slider__author">
+                                                Дарья
+                                              </figcaption>
+                                              <blockquote class="reviews-slider__blockquote">Ценитель вкусной еды</blockquote>
+                                        </div>
+                                
+                                    </div>
+                                    <div class="reviews-slider__item">
+                        
+                                        <img class="reviews-slider__img" src="images/content/reviews__img.png" alt="#">
+            
+                                    
+                                        <div class="reviews-slider__list">
+                                                <p class="reviews-slider__text">
+                                                    SimpleFood - одна из лучших служб доставки продуктов из ресторанов в городе. Очень удобный сайт и приложение. Их доставщики очень вежливы и пунктуальны. Компания часто проводит акции и дарит скидки на доставку - однозначно рекомендую!
+                                                </p>
+                                                <figcaption class="reviews-slider__author">
+                                                    Дарья
+                                                  </figcaption>
+                                                  <blockquote class="reviews-slider__blockquote">Ценитель вкусной еды</blockquote>
+                                            </div>
+                                    
+                                        </div>
+                            
+                            
+                            
+
+
+                       
+
+
+
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="wrapper">
+                <div class="footer-form">
+                    <a class="footer-logo" href="logo">
+                        <img class="logo__img" src="images/Home page/logo.png" alt="logo">
+                    </a>
+                    <form class="footer-form" action="#">
+                        <input class="footer-form__input" type="email" placeholder="Ваш email" required>
+                        <button class="footer-form__button" type="submit">
+                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.318 14.3001C10.0587 14.3001 9.81927 14.1616 9.70234 13.9406L7.66076 10.0822C7.54864 9.87034 7.5679 9.61684 7.71028 9.42119L11.0058 5.20009L6.53816 8.31359C6.33112 8.44879 6.06285 8.46569 5.83861 8.36039L1.75613 6.43184C1.51125 6.31549 1.36199 6.07304 1.37712 5.81434C1.39156 5.55564 1.56835 5.32944 1.82561 5.24039L14.895 0.690388C15.1461 0.603938 15.4288 0.660488 15.6193 0.840538C15.8092 1.01929 15.8711 1.28709 15.7782 1.52499L10.9632 13.875C10.8683 14.1181 10.6296 14.2851 10.3558 14.2988C10.3434 14.2994 10.3304 14.3001 10.318 14.3001Z" fill="white"/>
+                        </svg>                
+                        Подписаться</button>
+                    </form>
+                </div>
+                <div class="footer-items">
+                    <ul class="footer-items__item">
+                        <li class="footer-items__nav">
+                            <a href="" class="footer-items__link">Как это работает</a>
+                        </li>
+                        <li class="footer-items__nav">
+                            <a href="" class="footer-items__link">Продукты</a>
+                        </li>
+                        <li class="footer-items__nav">
+                            <a href="" class="footer-items__link">Блюда</a>
+                        </li>
+                        <li class="footer-items__nav">
+                            <a href="" class="footer-items__link">Меню</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-items">
+                    <ul class="footer-items__item">
+                        <li class="footer-items__nav">
+                            <a href="" class="footer-items__link">О нас</a>
+                        </li>
+                        <li class="footer-items__nav">
+                            <a href="" class="footer-items__link">Новости</a>
+                        </li>
+                        <li class="footer-items__nav">
+                            <a href="" class="footer-items__link">Партнеры</a>
+                        </li>
+                        <li class="footer-items__nav">
+                            <a href="" class="footer-items__link">ЧаВо</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-items">
+                    <ul class="footer-items__item">
+                        <li class="footer-items__nav">
+                            <a href="" class="footer-items__link">Скачать приложение</a>
+                        </li>
+                        <li class="footer-items__nav">
+                            <a href="" class="footer-items__link">Блог</a>
+                        </li>
+                        <li class="footer-items__nav">
+                            <a href="" class="footer-items__link">Что нового?</a>
+                        </li>
+                        <li class="footer-items__nav">
+                            <a href="" class="footer-items__link">Карта сайта</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-items">
+                    <ul class="footer-items__contacts">
+                        <li class="footer-items__contact">
+                            <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5 8.50051C11.5 7.11924 10.3808 6 9.00051 6C7.61924 6 6.5 7.11924 6.5 8.50051C6.5 9.88076 7.61924 11 9.00051 11C10.3808 11 11.5 9.88076 11.5 8.50051Z" stroke="#31352B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.99951 19C7.80104 19 1.5 13.8984 1.5 8.56329C1.5 4.38664 4.8571 1 8.99951 1C13.1419 1 16.5 4.38664 16.5 8.56329C16.5 13.8984 10.198 19 8.99951 19Z" stroke="#31352B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            <a class="footer-items__adress" href="#">ул. Т.Г.Шевченко, 1</a>
+                        </li>
+                        <li class="footer-items__contact">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.353 1.5C17.054 1.911 19.978 4.831 20.393 8.532" stroke="#31352B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M13.353 5.04297C15.124 5.38697 16.508 6.77197 16.853 8.54297" stroke="#31352B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0315 11.4724C14.0205 15.4604 14.9254 10.8467 17.4653 13.3848C19.9138 15.8328 21.3222 16.3232 18.2188 19.4247C17.8302 19.737 15.3613 23.4943 6.68447 14.8197C-1.99341 6.144 1.76157 3.67244 2.07394 3.28395C5.18377 0.173846 5.66682 1.58938 8.11539 4.03733C10.6541 6.5765 6.04254 7.48441 10.0315 11.4724Z" stroke="#31352B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                            <a class="footer-items__phone" href="tel:380501112233">380501112233</a>
+                        </li>
+                        <li class="footer-items__contact">
+                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.9026 6.85107L12.4593 10.4641C11.6198 11.1301 10.4387 11.1301 9.59919 10.4641L5.11841 6.85107" stroke="#31352B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9089 19C18.9502 19.0084 21 16.5095 21 13.4384V6.57001C21 3.49883 18.9502 1 15.9089 1H6.09114C3.04979 1 1 3.49883 1 6.57001V13.4384C1 16.5095 3.04979 19.0084 6.09114 19H15.9089Z" stroke="#31352B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            <a class="footer-items__email" href="mailto:support@sfood.com">support@sfood.com</a>
+                        </li>
+                    </ul>
+                    <ul class="social">
+                        <li class="social__item" title="перейти в Facebook">
+                            <a class="social__link" href="">
+                            
+                                <svg class="social__img">
+                                    <use xlink:href="images/sprite.svg#icon-facebook"></use>
+                                </svg>
+                                                        
+                                </a>
+                        </li>
+                        <li class="social__item" title="перейти в Twitter">
+                            <a class="social__link" href="#">
+                                <svg class="social__img">
+                                    <use xlink:href="images/sprite.svg#icon-twitter"></use>
+                                </svg>
+                                </a>
+                        </li>
+                        <li class="social__item" title="перейти в Instagram">
+                            <a class="social__link" href="#">
+                                <svg class="social__img">
+                                    <use xlink:href="images/sprite.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <hr class="footer-bottom__line">
+        <div class="footer-bottom">
+            
+            <span class="footer-bottom__text">© 2022 Simple Food</span>
+        </div>
+        
+    </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 </html>
